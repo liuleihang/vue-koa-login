@@ -1,6 +1,6 @@
 import Router from 'koa-router'
 import users from './users'
-import { baseApi } from '../../config/index'
+import { baseApi } from '../../config/sererConf'
 
 const router = new Router();
 

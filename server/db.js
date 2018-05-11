@@ -1,9 +1,9 @@
 import mongoose from "mongoose";
-import { connexionString } from "../config/index";
+import { mongodb } from "../config/sererConf";
 
 import userSchema from "./schema/User.schema";
 
-mongoose.connect(connexionString)
+mongoose.connect(mongodb)
 Promise = global.Promise;
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'Connect error'))

@@ -2,7 +2,7 @@ import mongoose from 'mongoose'
 import bcrypt from 'bcrypt'
 import jsonwebtoken from 'jsonwebtoken'
 import model from '../db'
-import { secret } from '../../config/index'
+import { secret } from '../../config/sererConf'
 
 
 
